@@ -13,7 +13,9 @@
         <li class="sidebar-nav-overview">
           {{ __('sidebar.overview') }}
         </li>
+        
       </ul>
+
 
       <div class="sidebar-panel-container">
         <!--noindex-->
@@ -73,5 +75,38 @@
         </div>
       {%- endif %}
     {%- endif %}
+
+
+        <div class="twopeople">
+               <div class="container" style="height:200px;">
+                   <canvas class="illo" width="400" height="400" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 300px;"></canvas>
+               </div>
+               <script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople1.js"></script>
+               <script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/zdog.dist.js"></script>
+               <script id="rendered-js" src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople.js"></script>
+               <style>
+                   .twopeople{
+                       margin: 0;
+                       align-items: center;
+                       justify-content: center;
+                       text-align: center;
+                   }
+                   canvas {
+                       display: block;
+                       margin: 0 auto;
+                       cursor: move;
+                   }
+               </style>
+             </div>
+             {%- if theme.back2top.enable and theme.back2top.sidebar %}
+               <div class="back-to-top animated" role="button" aria-label="{{ __('accessibility.back_to_top') }}">
+                 <i class="fa fa-arrow-up"></i>
+                 <span>0%</span>
+               </div>
+             {%- endif %}
+        </div>
+
+
+
   </aside>
 {% endmacro %}

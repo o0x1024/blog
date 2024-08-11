@@ -2,6 +2,7 @@
 title: rust入门导航
 date: 2024-08-10 10:07:51
 tags: rust
+categories: rust
 description: RUST入门的一些网站指引。
 ---
 

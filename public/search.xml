@@ -25,6 +25,9 @@
 <h3 id="练习中学习"><a href="#练习中学习" class="headerlink" title="练习中学习"></a>练习中学习</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://rustwiki.org/zh-CN/rust-by-example/</span><br></pre></td></tr></table></figure>
 
 <h3 id="练习网站"><a href="#练习网站" class="headerlink" title="练习网站"></a>练习网站</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://exercism.org/tracks/rust/exercises/hello-world</span><br><span class="line">https://zh.practice.rs/ownership/ownership.html</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>rust</category>
+      </categories>
       <tags>
         <tag>rust</tag>
       </tags>

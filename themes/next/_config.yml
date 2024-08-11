@@ -21,7 +21,7 @@ minify: false
 custom_file_path:
   #head: source/_data/head.njk
   #header: source/_data/header.njk
-  #sidebar: source/_data/sidebar.njk
+  # sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
   #postBodyStart: source/_data/post-body-start.njk
   #postBodyEnd: source/_data/post-body-end.njk
@@ -39,8 +39,8 @@ custom_file_path:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 # Dark Mode
 darkmode: auto
@@ -101,7 +101,7 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   #schedule: /schedule/ || fa fa-calendar
-  sitemap: /sitemap.xml || fa fa-sitemap
+  # sitemap: /sitemap.xml || fa fa-sitemap
   about: /about/ || fa fa-user
 
   #commonweal: /404/ || fa fa-heartbeat
@@ -257,7 +257,7 @@ symbols_count_time:
   item_text_total: false
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: false
+tag_icon: true
 
 # Donate (Sponsor) settings
 # Front-matter variable (nonsupport animation).
@@ -315,16 +315,16 @@ tagcloud:
 
 # Google Calendar
 # Share your recent schedule to others via calendar page.
-calendar:
-  calendar_id: <required> # Your Google account E-Mail
-  api_key: <required>
-  orderBy: startTime
-  showLocation: false
-  offsetMax: 72 # Time Range
-  offsetMin: 4 # Time Range
-  showDeleted: false
-  singleEvents: true
-  maxResults: 250
+# calendar:
+#   calendar_id: <required> # Your Google account E-Mail
+#   api_key: <required>
+#   orderBy: startTime
+#   showLocation: false
+#   offsetMax: 72 # Time Range
+#   offsetMin: 4 # Time Range
+#   showDeleted: false
+#   singleEvents: true
+#   maxResults: 250
 
 
 # ---------------------------------------------------------------
@@ -385,7 +385,7 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: left | right
   start_at: left
   # Available values: top | bottom
@@ -513,7 +513,7 @@ note:
 # Tabs tag
 tabs:
   # Make the nav bar of tabs with long content stick to the top.
-  sticky: false
+  sticky: true
   transition:
     tabs: false
     labels: true
@@ -523,7 +523,7 @@ tabs:
 # So, you have to install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
 # Dependencies: https://github.com/next-theme/theme-next-pdf
 pdf:
-  enable: false
+  enable: true
   # Default height
   height: 500px
 
@@ -644,7 +644,7 @@ pace:
   # All available themes:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: minimal
+  theme: bounce
 
 # Generate a ribbon in your website with HTML5 canvas.
 # For more information: https://github.com/hustcc/ribbon.js
@@ -670,7 +670,7 @@ comments:
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any naves, here are some examples.
   nav:
     #disqus:

@@ -14,7 +14,10 @@
 <body itemscope itemtype="http://schema.org/WebPage"{% if theme.motion.enable %} class="use-motion"{% endif %}>
   <div class="headband"></div>
 
+  
   <main class="main">
+
+
     <div class="column">
       <header class="header" itemscope itemtype="http://schema.org/WPHeader">
         {%- include '_partials/header/index.njk' -%}
@@ -48,5 +51,8 @@
   {%- include '_third-party/quicklink.njk' -%}
 
   {{- next_inject('bodyEnd') }}
+
+
+
 </body>
 </html>
